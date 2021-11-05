@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #ec1f55;
+    --text-color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.player {
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.player .icon-pause {
+    display: inline-block;
+}
+
+.player.playing .icon-play {
+    display: none;
+}
+
+.dashboard {
+    padding: 16px 16px 14px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 480px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    border-bottom: 10px;
+}
+
+header h4 {
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+header h2 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+/* CD */
+.cd {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.cd-thumb {
+    width: 100%; /*Xét chiều rộng cho ảnh*/
+    padding-bottom: 100%; /* Phải padding top hoặc botom thì ảnh mới hiện ra*/
+    border-radius: 50%;
+    background-color: #333;
+    background-size: cover;
+    margin: auto;
+}
+
+/* CONTROL */
+.control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0 8px 0;
+}
+
+.control .btn {
+    color: #666;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.control .btn.active {
+    color: var(--primary-color);
+}
+
+.control .btn-toggle-play {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.progress {
+    width: 100%;
+    height: 6px;
+}
+.playlist {
+}
+.song {
+}
+.thumb {
+}
+.body {
+}
+.title {
+}
+.author {
+}
+.option {
+}
+.fa-ellipsis-h {
+}
+.btn.btn-repeat {
+}
+.fas.fa-redo {
+}
+.btn.btn-prev {
+}
+.fas.fa-step-backward {
+}
+.btn.btn-toggle-play {
+}
+.fas.fa-pause.icon-pause {
+}
+.fas.fa-play.icon-play {
+}
+.btn.btn-next {
+}
+.fas.fa-step-forward {
+}
+.btn.btn-random {
+}
+.fas.fa-random {
+}
+.fas.fa-ellipsis-h {
+}
